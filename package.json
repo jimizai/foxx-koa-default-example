@@ -2,5 +2,30 @@
   "name": "@jimizai/foxx-koa-default-example",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node ./src/bootstrap.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@jimizai/core": "^2.0.3",
+    "@jimizai/decorators": "^2.0.0",
+    "@jimizai/driver-koa": "^2.0.0",
+    "@jimizai/injectable": "^2.0.0"
+  }
 }
