@@ -1,5 +1,5 @@
 {
-  "name": "@jimizai/foxx-koa-default-example",
+  "name": "{{name}}",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@types/koa": "^2.13.4",
+    "@types/{{framework}}": "*",
     "@types/node": "^16.6.1",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
@@ -27,7 +27,7 @@
     "@jimizai/common": "^2.0.3",
     "@jimizai/core": "^2.0.12",
     "@jimizai/decorators": "^2.0.3",
-    "@jimizai/driver-koa": "2.0.4",
+    "@jimizai/driver-{{framework}}": "*",
     "@jimizai/injectable": "^2.0.3"
   }
 }
