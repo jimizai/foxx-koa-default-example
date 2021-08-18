@@ -12,22 +12,22 @@
   "devDependencies": {
     "@types/koa": "^2.13.4",
     "@types/node": "^16.6.1",
-    "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.19.0",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "jest": "^26.0.1",
-    "prettier": "^2.0.5",
-    "ts-jest": "^26.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.2",
+    "ts-jest": "^26.5.6",
     "ts-node": "^10.2.0",
-    "typescript": "^4.2.3"
+    "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@jimizai/common": "^2.0.2",
-    "@jimizai/core": "^2.0.8",
-    "@jimizai/decorators": "^2.0.2",
+    "@jimizai/common": "^2.0.3",
+    "@jimizai/core": "^2.0.12",
+    "@jimizai/decorators": "^2.0.3",
     "@jimizai/driver-koa": "2.0.4",
-    "@jimizai/injectable": "^2.0.2"
+    "@jimizai/injectable": "^2.0.3"
   }
 }
