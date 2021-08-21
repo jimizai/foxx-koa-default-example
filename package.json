@@ -24,10 +24,10 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@jimizai/common": "^2.0.3",
+    "@jimizai/common": "^2.0.5",
     "@jimizai/core": "^2.0.15",
-    "@jimizai/decorators": "^2.0.3",
+    "@jimizai/decorators": "^2.0.5",
     "@jimizai/driver-{{framework}}": "*",
-    "@jimizai/injectable": "^2.0.3"
+    "@jimizai/injectable": "^2.0.5"
   }
 }
