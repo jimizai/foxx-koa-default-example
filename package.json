@@ -25,9 +25,9 @@
   },
   "dependencies": {
     "@jimizai/common": "^2.0.9",
-    "@jimizai/core": "^2.0.30",
-    "@jimizai/decorators": "^2.0.16",
+    "@jimizai/core": "^2.0.31",
+    "@jimizai/decorators": "^2.0.17",
     "@jimizai/driver-{{framework}}": "*",
-    "@jimizai/injectable": "^2.0.15"
+    "@jimizai/injectable": "^2.0.16"
   }
 }
